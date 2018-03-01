@@ -9,5 +9,7 @@
 上市时间（date）。
 
 部分爬取内容显示如下：
+
 ![爬取信息1](https://github.com/lxm909055383/Amazon/blob/master/img/1.png)
+
 ![爬取信息2](https://github.com/lxm909055383/Amazon/blob/master/img/2.png)
