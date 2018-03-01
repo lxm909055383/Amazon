@@ -1,27 +1,13 @@
-爬取内容：
 
-1、首页
+-----------从Gitee（码云）迁移过来-----------
 
-link：落地页链接
+该项目利用Scrapy框架爬取了亚马逊网站的商品信息，需要爬取的内容分布在两个界面：首页和落地页。
 
-ASIN：商品识别码（由于网址组合原因，已经知道，不需要在落地页爬取）
+在首页爬取的内容为：落地页的链接（link）和商品标识码（ASIN，由于网址组合原因，已经知道，不需要在落地页爬取）。
 
-2、落地页
+跳转到落地页之后，爬取的内容包括：标题（title）、品牌（brand）、价格（price）、星数（star）、评论人数（num）、排名（rank）、产品描述（description）、
+上市时间（date）。
 
-title：标题
-
-brand：品牌
-
-price：价格
-
-star：星数
-
-num：评论人数
-
-rank：排名
-
-description：产品描述
-
-date：上市时间
-![爬取信息（1）](https://github.com/lxm909055383/Amazon/blob/master/img/1.png);
-
+部分爬取内容显示如下：
+![爬取信息1](https://github.com/lxm909055383/Amazon/blob/master/img/1.png)
+![爬取信息2](https://github.com/lxm909055383/Amazon/blob/master/img/2.png)
