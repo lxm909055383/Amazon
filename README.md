@@ -23,4 +23,4 @@ rank：排名
 description：产品描述
 
 date：上市时间
-![爬取信息（1）](D:/aaacomputer/Desktop/img/1.png);
+![爬取信息（1）](Amazon/img/1.png);
